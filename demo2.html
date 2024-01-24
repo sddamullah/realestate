@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <title>Hello, world!</title>
+  <style>
+    /* .ad-search ul {
+  background: #bebebe;
+  list-style:none;
+  padding:0 20px;
+  margin: 0;
+  height: 60px;
+
+}
+
+
+.ad-search ul li {
+  display: inline-block;
+}
+
+
+.ad-search ul li a {
+  color:#333333;
+  display:block;
+  padding:0px 40px;
+  text-decoration:none;
+  float: left;
+  height: 60px;
+   line-height: 60px;
+}
+
+
+
+
+
+
+.ad-search ul li:hover  ul {
+  display:block;
+}
+
+.ad-search ul ul {
+  background: red;
+  padding:0;
+  text-align: center;
+  display:none;
+    width: 100%;
+    height: auto;
+  position: absolute;
+  top: 60px;
+  left: 0px;
+} */
+    .container {
+      background-color: aqua;
+    }
+
+    .price-input {
+      display: flex;
+      /* justify-content: space-between; */
+      background-color: red;
+    }
+
+    .field {}
+
+    .field input {
+      width: 30%;
+      -moz-appearance: textfield;
+    }
+
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+    }
+
+    .slider {
+      height: 10px;
+      margin: 20px 20px;
+      background: rgb(0, 189, 25);
+      position: relative;
+    }
+
+    .slider .progress {
+      background-color: rgb(10, 89, 237);
+      height: 10px;
+
+      left: 20%;
+      right: 20%;
+      position: absolute;
+    }
+
+    .rang-input {
+      position: relative;
+
+    }
+
+    .rang-input input {
+      position: absolute;
+      height: 10px;
+      width: 100%;
+      background: none;
+      -webkit-appearance: none;
+      pointer-events: none;
+
+
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      height: 17px;
+      width: 15px;
+      border-radius: 50%;
+      background-color: black;
+      -webkit-appearance: none;
+      pointer-events: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- <div class="dropdown">
+    <a class="btn btn-secondary position-relative dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+      aria-expanded="false">
+      Dropdown link
+    </a>
+  
+    <ul class="dropdown-menu position-relative " aria-labelledby="dropdownMenuLink">
+     <div class="row">
+      <div class="col-md-4">
+        <input type="text">
+      </div>
+      <div class="col-md-4">
+        <input type="text">
+      </div>
+     </div>
+    </ul>
+  </div> -->
+  <!-- <div class="ad-search">
+  <ul>
+   
+    <li><a href="#">Tutorials</a>
+      <ul>
+        <li>
+          <div class="container">
+            <div class="col-md-12">
+                                  <div class="row  ">
+                                    <div class="col-md-4  mx-md-5 ">
+                                      <label for="room">Bedrooms</label>
+                                      <select class="form-select" id="room" aria-label="Default select example">
+                                        <option selected>Open this select menu</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                      </select>
+                                    </div>
+                                    <div class="col-md-4  mx-auto ">
+                                      <label for="room">Bedrooms</label>
+                                      <select class="form-select" id="room" aria-label="Default select example">
+                                        <option selected>Open this select menu</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                      </select>
+                                    </div>
+                                    <div class="col-md-4  mx-auto ">
+                                      <label for="room">Bedrooms</label>
+                                      <select class="form-select" id="room" aria-label="Default select example">
+                                        <option selected>Open this select menu</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                      </select>
+                                    </div>
+                                  </div>
+            </div>
+          </div>
+        </a></li>
+       
+        
+      </ul>
+    </li>
+
+  </div> -->
+
+  <div class="wrapper container">
+    <header>
+      <h2>price date_range</h2>
+    </header>
+  
+
+    <div class="slider">
+      <div class="progress"></div>
+      <div class="rang-input">
+        <input type="range" class="min-rang" min="0" max="10000" value="2500" />
+        <input type="range" class="max-rang" min="0" max="10000" value="7500" />
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script>
+    const rangeInput = document.querySelectorAll(".rangr-input input");
+    rangeInput.forEach(input => {
+
+
+      input.addEventListner("input", () => {
+
+        let minval = parseInt(rangeInput[0].value),
+         maxval = parseInt(rangeInput[1].value);
+        console.log(minval, maxval)
+      });
+    });
+
+  </script>
+</body>
+
+</html>

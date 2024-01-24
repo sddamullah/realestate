@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.font {
+  font-family: "Antonio", sans-serif;
+  font-family: "Pathway Gothic One", sans-serif;
+}
+.font2 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.submit {
+  background-color: rgb(0, 99, 198);
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 6px;
+}
+input:focus {
+  box-shadow: none !important;
+}
+.submit:hover {
+  background-color: rgb(6, 55, 104);
+  color: white;
+}
+
+input,
+textarea,
+select {
+  border-radius: 7px !important;
+}
+textarea {
+  height: 150px !important;
+}
+
+/* -----------------navba css---------------------- */
+@media screen and (max-width: 700px) {
+  .smcr {
+    display: none;
+  }
+}
+@media screen and (min-width: 700px) {
+  .smcr {
+    display: block;
+  }
+}
+
+.navba {
+  overflow: hidden;
+  background-color: white;
+  font-family: "Antonio", sans-serif;
+  font-family: "Pathway Gothic One", sans-serif;
+}
+
+.navba a {
+  float: right;
+  /* font-size: 20px;
+  font-weight: 600; */
+  color: #0b2c71;
+  letter-spacing: 1px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.d {
+  float: right;
+  overflow: hidden;
+}
+
+.d .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: #0b2c71;
+  padding: 14px 16px;
+  background-color: inherit;
+  /* font-size: 20px;
+  font-weight: 600; */
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.navba a:hover {
+  /* background-color: red; */
+  border-bottom: 3px solid rgb(11, 44, 113);
+}
+
+.d-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(11, 44, 113);
+  width: 100%;
+  left: 0;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+}
+
+/* .d-content .header {
+  background: red;
+  padding: 16px;
+  color: white;
+} */
+
+.d:hover .d-content {
+  display: block;
+}
+.d-content :hover {
+  border: none;
+}
+
+/* Create three equal cos that floats next to each other */
+
+.link a {
+  float: none;
+  text-shadow: none;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-decoration: none;
+  font-size: 18px;
+
+  display: block;
+  text-align: center;
+}
+
+/* Clear floats after the cos */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three cos stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .link {
+    width: 100%;
+    height: auto;
+  }
+  .logo {
+    width: 30x !important;
+    height: 50px !important;
+    border: 2px dashed rgb(125, 11, 11);
+    border-radius: 100%;
+   
+  } 
+  .logoname{
+    font-size: 20px;
+  }
+  .signin{
+    font-size: 16px !important;
+  }
+}
+.logo {
+  width: 63px;
+  height: 63px;
+  border: 2px dashed rgb(11, 44, 113);
+  border-radius: 100%;
+  
+}
+.login {
+  margin-top: 33px;
+  border-radius: 5px;
+}
+.dropdown-item:hover {
+  color: white !important;
+  background-color: rgb(44, 84, 171) !important;
+  border: none !important;
+}
+
+/* -----------------------dropdown------------------- nvbtn */
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dd-button {
+  display: inline-block;
+  border: 1px solid gray;
+  border-radius: 4px;
+  padding: 10px 30px 10px 20px;
+  background-color: #ffffff;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dd-button:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid black;
+}
+
+.dd-button:hover {
+  background-color: #eeeeee;
+}
+
+.dd-input {
+  display: none;
+}
+
+.dd-menu {
+  position: absolute;
+  top: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0;
+  margin: 2px 0 0 0;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  list-style-type: none;
+}
+
+.dd-input + .dd-menu {
+  display: none;
+}
+
+.dd-input:checked + .dd-menu {
+  display: block;
+}
+
+.dd-menu li {
+  padding: 10px 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dd-menu li:hover {
+  background-color: #f6f6f6;
+}
+
+.dd-menu li a {
+  display: block;
+  margin: -10px -20px;
+  padding: 10px 20px;
+}
+
+.dd-menu li.divider {
+  padding: 0;
+  border-bottom: 1px solid #cccccc;
+}
+
+.already {
+}
+
+.already:hover,
+.login:hover {
+  border: none !important;
+}
+.dropbtn:hover .d-content {
+  position: relative;
+  animation: form;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+@keyframes form {
+  0% {
+    right: 00px;
+    top: -200px;
+  }
+
+  100% {
+    right: 0px;
+    top: 0px;
+  }
+}
+/* ==========================side bar================= */

@@ -1,0 +1,158 @@
+        .form.animate1 {
+
+            position: relative;
+            animation: form;
+            animation-duration: 1s;
+            animation-timing-function: ease-out;
+        }
+
+        @keyframes form {
+            0% {
+                right: -200px;
+                top: 0px;
+            }
+
+            100% {
+                right: 0px;
+                top: 0px;
+            }
+        }
+
+        .map.animate2 {
+
+
+            position: relative;
+            animation: map;
+            animation-duration: 1s;
+            animation-timing-function: ease-out;
+
+        }
+
+        @keyframes map {
+            0% {
+                left: -300px;
+                top: 00px;
+            }
+
+            100% {
+                left: 0px;
+                top: 0px;
+            }
+        }
+
+        .pform.animate3 {
+
+
+            position: relative;
+            animation: pform;
+            animation-duration: 1s;
+            animation-timing-function: ease-out;
+
+
+        }
+
+        @keyframes pform {
+             0% {
+                left: 00px;
+                top: -200px;
+            }
+
+            100% {
+                left: 0px;
+                top: 0px;
+            }
+            
+            
+        }
+          .up.animate4 {
+
+
+            position: relative;
+            animation: up;
+            animation-duration: 1s;
+            animation-timing-function: ease-out;
+
+
+        }
+
+        @keyframes up {
+          0% {
+                left: 00px;
+                bottom: -300px;
+            }
+
+            100% {
+                left: 0px;
+                bottom: 0px;
+            } 
+            
+        }
+                  .upp.animate5 {
+
+
+            position: relative;
+            animation: upp;
+            animation-duration: 1s;
+            animation-timing-function: ease-out;
+
+
+        }
+
+        @keyframes upp {
+          0% {
+                left: 00px;
+                bottom: -300px;
+            }
+
+            100% {
+                left: 0px;
+                bottom: 0px;
+            } 
+            
+        }
+           .uppp.animate6 {
+
+
+            position: relative;
+            animation: uppp;
+            animation-duration: 1s;
+            animation-timing-function: ease-out;
+
+
+        }
+
+        @keyframes uppp {
+          0% {
+                left: 00px;
+                bottom: -300px;
+            }
+
+            100% {
+                left: 0px;
+                bottom: 0px;
+            } 
+            
+        }
+         .upppp.animate7 {
+
+
+            position: relative;
+            animation: upppp;
+            animation-duration: 1s;
+            animation-timing-function: ease-out;
+
+
+        }
+
+        @keyframes upppp {
+          0% {
+                left: 00px;
+                bottom: -300px;
+            }
+
+            100% {
+                left: 0px;
+                bottom: 0px;
+            } 
+            
+        }

@@ -1,0 +1,35 @@
+.font{
+       font-family: 'Antonio', sans-serif;
+font-family: 'Pathway Gothic One', sans-serif;
+}
+.font2{
+        font-family: 'Roboto Condensed', sans-serif;
+  
+}
+
+.heartu{
+        line-height: 30px !important ;
+        
+}
+
+.ptype,input,textarea:focus {
+ 
+ box-shadow: none !important;
+  
+}
+.send{
+        background-color:  rgb(0,99,198) !important;
+        color: white !important;
+        font-size: 18px !important;
+}
+input, select, textarea{
+        border-radius: 7px !important;
+}
+@media screen and (max-width: 600px) {
+  .checktext{
+        display: none;
+  }
+}
+
+
+/* -----------------navba css---------------------- */

@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us | Mattamy Homes
+        MattaamyHomes.com</title>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- -------------------icon link------------------------ -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.css">
+    <!-- -------------------------------google font 2---------------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <!-- ------------------------------ stylesheet link------------------------------- -->
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- -------------------------google font link-------------------------------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@200&family=Pathway+Gothic+One&display=swap"
+        rel="stylesheet">
+    <!-- ---------------------------------------bootstrap css link------------------------ -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <style>
+        .side {
+            margin-right: 0 !important;
+
+            background-color: white;
+            font-family: "Antonio", sans-serif;
+            font-family: "Pathway Gothic One", sans-serif;
+        }
+
+        .side a {
+
+            /* font-size: 20px;
+  font-weight: 600; */
+            color: #0b2c71;
+            letter-spacing: 1px;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .sided {
+            float: left;
+            overflow: hidden;
+        }
+
+        .sidedropbtn:hover span {
+            transition-property: transform;
+            transition-duration: .3s;
+
+
+            transform: rotate(90deg);
+        }
+
+        .sided .sidedropbtn {
+            font-size: 20px;
+            border: none;
+            outline: none;
+            color: #0b2c71;
+            padding: 14px 16px;
+            background-color: inherit;
+            /* font-size: 20px;
+  font-weight: 600; */
+            margin: 0;
+            letter-spacing: 1px;
+        }
+
+        .side a:hover {
+            /* background-color: red; */
+            /* border-bottom: 3px solid rgb(11, 44, 113); */
+        }
+
+        .sided-content {
+            display: none;
+            position: absolute;
+            background-color: rgb(11, 44, 113);
+            width: 100%;
+            left: 0;
+            /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+            z-index: 1;
+        }
+
+        /* .d-content .header {
+  background: red;
+  padding: 16px;
+  color: white;
+} */
+
+        .sided:hover .sided-content {
+            display: block;
+        }
+
+        .sided-content :hover {
+            border: none;
+
+        }
+
+        /* Create three equal cos that floats next to each other */
+
+        .sidelink a {
+            float: left;
+            text-shadow: none;
+            color: white;
+
+            text-decoration: none;
+            font-size: 18px;
+
+            display: block;
+            text-align: center;
+        }
+
+        /* Clear floats after the cos */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive layout - makes the three cos stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {}
+
+        .sidelogo {
+            width: 50px;
+            height: 50px;
+            border: 2px dashed rgb(11, 44, 113);
+            border-radius: 100%;
+
+        }
+
+        .sidelogin {
+            margin-top: 33px;
+            border-radius: 5px;
+        }
+
+        .sidedropdown-item:hover {
+            color: white !important;
+            background-color: rgb(44, 84, 171) !important;
+            border: none !important;
+        }
+
+        /* -----------------------dropdown------------------- nvbtn */
+
+        .sidedropdown {
+            display: inline-block;
+            position: relative;
+        }
+
+        .sidedd-button {
+            display: inline-block;
+            border: 1px solid gray;
+            border-radius: 4px;
+            padding: 10px 30px 10px 20px;
+            background-color: #ffffff;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+        .sidedd-button:after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            right: 15px;
+            transform: translateY(-50%);
+            width: 0;
+            height: 0;
+            border-left: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-top: 5px solid black;
+        }
+
+        .sidedd-button:hover {
+            background-color: #eeeeee;
+        }
+
+        .sidedd-input {
+            display: none;
+        }
+
+        /* .sidedd-menu {
+            position: absolute;
+            top: 100%;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 0;
+            margin: 2px 0 0 0;
+            box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1);
+            background-color: #ffffff;
+            list-style-type: none;
+        } */
+
+        .sidedd-input+.dd-menu {
+            display: none;
+        }
+
+        .sidedd-input:checked+.dd-menu {
+            display: block;
+        }
+
+        /* 
+        .sidedd-menu li {
+            padding: 10px 20px;
+            cursor: pointer;
+            white-space: nowrap;
+        } */
+
+        /* .sidedd-menu li:hover {
+            background-color: #f6f6f6;
+        } */
+
+        /* .sidedd-menu li a {
+            display: block;
+            margin: -10px -20px;
+            padding: 10px 20px;
+        } */
+
+        /* .sidedd-menu li.divider {
+            padding: 0;
+            border-bottom: 1px solid #cccccc;
+        } */
+    </style>
+    <!-- cards style -->
+    <!-- <style>
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        .background {
+            position: absolute;
+            top: -40px;
+            left: -40px;
+            height: 120%;
+            width: 120%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            -webkit-filter: blur(30px);
+            filter: blur(30px);
+        }
+
+        .card {
+            position: absolute;
+            
+            border-radius: 8px;
+            height: 450px;
+            width: 400px;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            margin: auto;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            box-shadow: 0 0 80px -10px black;
+            overflow: hidden;
+        }
+
+        .card-blur {
+            position: absolute;
+            height: 100%;
+            width: calc(100% + 1px);
+            background-color: black;
+            opacity: 0;
+            transition: opacity 0.15s ease-in;
+        }
+
+        .card:hover .card-blur {
+            opacity: 0.6;
+        }
+        
+
+        .footer {
+            z-index: 1;
+            position: absolute;
+            height: 80px;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* svg#curve {
+            position: absolute;
+            fill: white;
+            left: 0;
+            bottom: 0;
+            width: 400px;
+            height: 450px;
+        } */
+
+        .connections {
+            height: 80px;
+            width: 400px;
+            /* position: absolute; */
+            left: 0;
+            right: 0;
+            bottom: 10px;
+            /* margin: auto; */
+        }
+
+        .connection {
+            height: 25px;
+            width: 25px;
+            border-radius: 100%;
+            background-color: white;
+            display: inline-block;
+            padding: 5px;
+            margin-right: 25px;
+            transform: translateY(200px);
+
+            transition: transform 1s cubic-bezier(.46, 1.48, .18, .81);
+        }
+
+        .card:hover .connection {
+            transform: translateY(0px);
+        }
+
+        /* .info {
+            font-family: Inconsolata;
+            padding-left: 20px;
+            transform: translateY(50px);
+
+            transition: transform 1s cubic-bezier(.31, 1.21, .64, 1.02);
+        } */
+
+     
+
+      
+
+        .connection.facebook {
+            height: 35px;
+            width: 35px;
+            margin-left: 20px;
+            padding: 0px;
+            border-radius: 100%;
+            overflow: hidden;
+        }
+
+     
+
+        .connection.facebook .icon {
+            height: 100%;
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+            background-color: rgb(11, 44, 113);
+        }
+
+      
+
+        
+            .card {
+    background-image:url(about/assets/images/khalid.jpg)
+    }
+    </style> -->
+
+    <!-- <style>.image-container {
+    position: relative;
+    width: 300px; /* Set your image width */
+    height: 200px; /* Set your image height */
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-box {
+    position: absolute;
+    bottom: -120px; /* Initially hide the info box below the image */
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+    transition: bottom 0.3s ease;
+}
+
+.image-container:hover .info-box {
+    bottom: -100px; /* Move the info box up slightly when the container is hovered */
+}
+
+.image-container:hover .heading {
+    display: none; /* Hide the heading when the container is hovered */
+}
+</style> -->
+    <!-- <style>
+        .form {
+
+            position: relative;
+            animation: form;
+            animation-duration: 1s;
+            animation-timing-function: ease-out;
+        }
+
+        @keyframes form {
+            0% {
+                right: -200px;
+                top: 0px;
+            }
+
+            100% {
+                right: 0px;
+                top: 0px;
+            }
+        }
+
+        .map {
+
+
+            position: relative;
+            animation: map;
+            animation-duration: 1s;
+            animation-timing-function: ease-out;
+
+        }
+
+        @keyframes map {
+            0% {
+                left: -200px;
+                top: 0px;
+            }
+
+            100% {
+                left: 0px;
+                top: 0px;
+            }
+        }
+
+        .pform {
+
+
+            position: relative;
+            animation: pform;
+            animation-duration: 1s;
+            animation-timing-function: ease-out;
+
+
+        }
+
+        @keyframes pform {
+            0% {
+                left: 00px;
+                top: -200px;
+            }
+
+            100% {
+                left: 0px;
+                top: 0px;
+            }
+        }
+    </style> -->
+
+    <!-- image info-box -->
+    <!-- <style>
+        .image-container {
+    position: relative;
+    width: 300px; /* Set your image width */
+    height: 400px; /* Set your image height */
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-box {
+    position: absolute;
+    bottom: -100px; /* Initially hide the info box below the image */
+    left: 0;
+    width: 100%;
+    background-color: blue;
+    color: #fff;
+    padding: 0px 20px 40px 20px;
+    transition: bottom 0.3s ease;
+}
+
+.image-container:hover .info-box {
+    bottom: 0;
+     /* Move the info box up when the container is hovered */
+}
+.image-container:hover .image{
+    padding-bottom: 80px;
+      transition: all linear 0.3s;
+    
+}
+ .image{
+     transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+
+
+.image-container:hover .heading {
+    /* display: none;  */
+    /* Hide the heading when the container is hovered */
+}
+
+    </style> -->
+</head>
+
+<body>
+    <!-- ----------------------SELECT AREA FORM----------------------------- -->
+
+    <!-- 
+    <div class="container-fluid  wow fadeIn mt-md-5 py-4 " data-wow-delay="0.1s"
+        style="  background-color: rgb(121, 185, 224);">
+        <div class="container pform     ">
+            <div class="row g-2">
+                <div class="col-md-10">
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <input type="text" class="form-control border-0 py-3 ptype" placeholder="Search Keyword">
+                        </div>
+                        <div class="col-md-4">
+                            <select class="form-select  py-3 ptype">
+                                <option selected="">Property Type</option>
+                                <option value="1">Property Type 1</option>
+                                <option value="2">Property Type 2</option>
+                                <option value="3">Property Type 3</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <select class="form-select border-0 py-3 ptype mb-3">
+                                <option selected="">Location</option>
+                                <option value="1">Location 1</option>
+                                <option value="2">Location 2</option>
+                                <option value="3">Location 3</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-dark border-0 w-100 py-3"
+                        style="background-color: rgb(0,99,198); box-shadow: 4px black;">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+ -->
+
+    <!-- ----------------------------------------------------------------------------------------------- -->
+    <!-- 
+    <div class="cotainer-fluid  mt-5  " style="background-color: rgb(216, 229, 237) ;">
+        <div class="container ">
+            <div class="row mx-1 " style="background-color: rgb(216, 229, 237); color: rgb(11, 44, 113) ;">
+                <div class="col-md-6 map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27237.250028183502!2d73.08818048874318!3d31.42359560000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3922681547a6a0af%3A0x17e2907dc05788f3!2sCanal%20Garden!5e0!3m2!1sen!2s!4v1697020920238!5m2!1sen!2s"
+                        width="100%" height="95%" style="border:0;" class="mt-3" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md-6 form">
+                    <p class="h1 fw-bold font2  ws-3  mt-3" >We Want to
+                        Hear From You</p>
+
+
+
+                    <div class="row ">
+                        <div class="col-md-6 col-xs-6 ">
+                            <div class="form-floating mt-3 mt-md-4">
+                                <input type="password" class="form-control" id="floatingPassword"
+                                    placeholder="Password">
+                                <label for="floatingPassword">Your Name</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6 ">
+                            <div class="form-floating mt-3 mt-md-4">
+                                <input type="password" class="form-control" id="floatingPassword"
+                                    placeholder="Password">
+                                <label for="floatingPassword">Your Email</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-floating mt-3 ">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Subject</label>
+                    </div>
+                    <div class="form-floating mt-3">
+                        <textarea class="form-control   " style="height: 150px;" placeholder="Leave a comment here"
+                            id="floatingTextarea"></textarea>
+                        <label for="floatingTextarea">Message</label>
+                    </div>
+                    <div class="mb-3 form-check mt-3">
+                        <input type="checkbox" class="form-check-input " id="exampleCheck1">
+                        <label class="form-check-label font2" for="exampleCheck1"><span class="checktext"> I am
+                                interested in obtaining
+                                additional information and would appreciate it if my information could be used and/or
+                                shared with a Top Realtors Group affiliated agent to address my real estate needs. By
+                                clicking "SEND MESSAGE," I give my
+                                consent for a Top Realtors Group agent to contact me via phone or text message,
+                                including
+                                through automated means, to
+                                provide me with information about real estate services. I acknowledge that I have read,
+                                understood, and agree to the </span><a href="#" class="text-decoration-none">Terms of
+                                Use</a> and <a href="#" class="text-decoration-none">Privacy Policy</a></label>
+                    </div>
+
+
+                    <div class="d-grid">
+
+                        <button class="btn send py-2 mb-3" type="button">Send Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!-- ----------------------------contact addres ------------------------------------------------------------------------- -->
+
+
+    <!-- 
+    <div class="container mt-5  mb-1 wow fadeIn py-3" data-wow-delay="0.1s"
+        style=" border-radius: 7px;  background-color: rgb(216,229,237);">
+        <div class="container">
+
+            <div class="text-start mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="color:rgb(11,44,113);">
+                <h1 class="mb-3">Contact us</h1>
+                <p style="font-size: 14px">At TOP REALTORS (PVT) Limited, we pride ourselves on delivering quality
+                    products
+                    on time and within budget. To help us serve you better and process your requests more efficiently,
+                    please provide us with complete information.</p>
+                <p style="font-size: 14px">Your details and requirements are valuable to us. The more comprehensive your
+                    information, the better equipped we are to address your needs and exceed your expectations. Please
+                    don't
+                    hesitate to reach out to us; we're ready and eager to assist you</p>
+            </div>
+
+            <div class="row gy-4">
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s"
+                    style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn; ">
+                    <div class="bg-light rounded p-3">
+                        <div class="d-flex align-items-center bg-white rounded p-3"
+                            style="border: 1px dashed rgba(0, 185, 142, .3)">
+                            <div class="icon me-3" style="width: 45px; height: 45px;">
+                                <i class="fa fa-map-marker-alt ms-4 mt-2"
+                                    style="color:rgb(11,44,113); font-size: 20px;"></i>
+                            </div>
+                            <span style="color:rgb(11,44,113)">P-40 Street # 1 Canal Garden <br>Canal Road Faisalabad
+                                Pakistan</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.3s"
+                    style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn; background-color: rgb(216,229,237);">
+                    <div class="bg-light rounded p-3">
+                        <div class="d-flex align-items-center bg-white rounded p-3"
+                            style="border: 1px dashed rgba(0, 185, 142, .3)">
+                            <div class="icon me-3" style="width: 45px; height: 45px;">
+                                <i class="fa fa-envelope-open  ms-4"
+                                    style=" margin-top:12px ; color:rgb(11,44,113); font-size: 20px; "></i>
+                            </div>
+                            <span style="color:rgb(11,44,113)"><a
+                                    href="mailto:info@toprealtors.pk">info@toprealtors.pk</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.5s"
+                    style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn; background-color: rgb(216,229,237);">
+                    <div class="bg-light rounded p-3">
+                        <div class="d-flex align-items-center bg-white rounded p-3"
+                            style="border: 1px dashed rgba(0, 185, 142, .3) ">
+                            <div class="icon me-3" style="width: 45px; height: 45px;">
+                                <i class="fa fa-phone-alt mt-3 ms-4" style="color:rgb(11,44,113); font-size: 20px;"></i>
+                                 <a class="" href="" target="_self" style="color:rgb(11,44,113); font-size: 30px; text-decoration: none; margin-right: 12px;"><i class="bi bi-phone"></i></a> -->
+
+    <!-- </div>
+                            <span style="color:rgb(11,44,113)">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td>Cell :</td>
+                                            <td><a href="tel:+923336646000">+92 333 6646000</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Office : </td>
+                                            <td><a href="tel:+92418759000">+92 41 8759000</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>Fax : </td>
+                                            <td><a href="tel:+92418759500">+92 41 8759500</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+
+    <!-- model box  --><!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+    </button>
+
+    <!-- Modal -->
+    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="h2 fw-bold font2 " style=" color: rgb(11,44,113);">Sign Up</p>
+                            <p style="color: rgb(11,44,113);">Fill in following details to sign up!</p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="floatingInput"
+                                            placeholder="name@example.com">
+                                        <label for="floatingInput" class="font2">First Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="floatingInput"
+                                            placeholder="name@example.com">
+                                        <label for="floatingInput" class="font2">Last Name</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3">
+                                        <input type="email" class="form-control" id="floatingInput"
+                                            placeholder="name@example.com">
+                                        <label for="floatingInput" class="font2">Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="floatingInput"
+                                            placeholder="name@example.com">
+                                        <label for="floatingInput" class="font2">Cell</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3">
+                                        <input type="password" class="form-control" id="floatingInput"
+                                            placeholder="name@example.com">
+                                        <label for="floatingInput" class="font2">Password</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3">
+                                        <input type="password" class="form-control" id="floatingInput"
+                                            placeholder="name@example.com">
+                                        <label for="floatingInput" class="font2">Confirm Password</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="floatingInput"
+                                            placeholder="name@example.com">
+                                        <label for="floatingInput" class="font2">City</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <select class="form-select font2 h-75" aria-label="size 3 select example">
+                                        <option selected>Country</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                             file input -->
+    <!-- <div class="row">
+                                <div class="col-md-8">
+                                    <div class="mb-3">
+                                        <label for="formFile" class="form-label  font2"
+                                            style="color: rgb(11,44,113);">Upload Picture</label>
+                                        <input class="form-control" type="file" id="formFile">
+                                    </div>
+                                </div>
+                            </div> -->
+    <!-- textarea  -->
+    <!-- 
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control mb-4" placeholder="Leave a comment here"
+                                            id="floatingTextarea2" style="height: 100px"></textarea>
+                                        <label for="floatingTextarea2" class="font2 ">Comments</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="d-grid gap-2">
+                                        <button class="btn  py-2 submit" type="button">Button</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+
+    <!-- 
+    <div class="modal" id="menModal" tabindex="-1" aria-labelledby="menModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="menModalLabel">Men's Fashion Model Box</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>This is a stylish and trendy men's fashion model box. You can add details about your men's
+                        fashion
+                        collection, promotions, or any other information here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+ -->
+
+    <!-- <div class="container">
+    <div class="row">
+        <div class="col-md-4">
+<div class="image-container">
+    <img src="property_types/sercice2.jpg" alt="Image" class="image">
+    <div class="info-box">
+        <h2 class="heading">Image Heading</h2>
+        <p>Additional information about the image.</p>
+    </div>
+</div>
+        </div>
+        <div class="col-md-4">
+<div class="image-container">
+    <img src="property_types/sercice2.jpg" alt="Image" class="image">
+    <div class="info-box">
+        <h2 class="heading">Image Heading</h2>
+        <p>Additional information about the image.</p>
+    </div>
+</div>
+        </div>
+        <div class="col-md-4">
+<div class="image-container">
+    <img src="property_types/sercice2.jpg" alt="Image" class="image">
+    <div class="info-box">
+        <h2 class="heading">Image Heading</h2>
+        <p>Additional information about the image.</p>
+    </div>
+</div>
+        </div>
+    </div>
+</div> -->
+
+
+
+    <div class="background"></div>
+    <div id="curve" class="card">
+        <div class="footer">
+            <div class="connections">
+                <div class="connection facebook">
+                    <div class="icon">
+                        <a href="tel:03006646000" class="   text-light pt-2 "><span
+                                class="material-symbols-outlined pt-2 ps-1 pb-1 ">
+                                call
+                            </span></a>
+                    </div>
+                </div>
+                <div class="connection facebook">
+                    <div class="icon">
+                        <a href="#" class="  text-light pt-2 "><span class="material-symbols-outlined pt-2 ps-1 pb-1">
+                                date_range
+                            </span></a>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+        <div class="card-blur"></div>
+    </div>
+
+    <!-- <a class="card2" href="#">
+        <h3>This is option 2</h3>
+        <p class="small">Card description with lots of great facts and interesting details.</p>
+
+        <div class="go-corner" href="#">
+            <div class="go-arrow">
+                →
+            </div>
+        </div>
+    </a> -->
+
+
+
+
+
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+        aria-controls="offcanvasExample">
+        Button
+    </button>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+
+            <button type="button" class="btn-close  text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body side">
+            <div class="row ">
+                <div class="col-12">
+                    <img src="join_our_team/assets/images/Logo.png" class=" img-fluid float-start sidelogo px-2 "
+                        alt="">
+                    <p class=" h5  font sidelogoname fw-bold float-start mt-3 ms-2 " style="color: rgb(11,44,113);">Top
+                        Realtors
+                        Group
+                    </p>
+                    <button type="button" class="btn text-light  py-1  float-end mt-3  fs-6  " style="background-color: rgb(44, 84, 171); 
+                            border-radius: 5px; " data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        signin
+                    </button>
+                </div>
+            </div>
+            <div class="row mt-5 mx-2">
+                <div class="col-12">
+
+                    <a href="index.html" class=" sidelink text-decoration-none  fs-5 fw-bold mt-4 me-3">HOME</a>
+
+
+
+
+
+                </div>
+                <hr>
+
+                <div class="col-12">
+
+                    <a href="about.html"
+                        class="sidelink  text-decoration-none float-start fs-5 fw-bold mt-2 me-3">ABOUT</a>
+
+
+
+
+
+
+                </div>
+                <hr>
+                <div class="col-12">
+                    <div class="sided">
+                        <button class="sidedropbtn  float-start fs-5 fw-bold   ">OUR BUSSINESSES
+                            <span class="material-symbols-outlined  align-bottom mb-1 " style="margin-left: 100px;">
+                                arrow_forward_ios
+                            </span>
+                        </button>
+                        <div class="sided-content mt-5 ">
+
+                            <div class="row">
+                                <div class="col-12 sidelink ">
+
+                                    <a href="#">Our Projects</a>
+
+                                </div>
+                                <div class="col-12     sidelink">
+
+                                    <a href="#">New Projects</a>
+
+                                </div>
+                                <div class="col-12     sidelink">
+
+                                    <a href="#">Constructions</a>
+
+                                </div>
+                                <div class="col-12     sidelink">
+
+                                    <a href="#">Impot / Export</a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="col-12">
+                    <div class="sided">
+                        <button class="sidedropbtn  float-start fs-5 fw-bold  ">CONTACT
+
+                        </button>
+                        <div class="sided-content mt-5">
+
+                            <div class="row">
+                                <div class="col-12 sidelink ">
+
+                                    <a href="contact.html">Contact US</a>
+
+                                </div>
+                                <div class="col-12     sidelink">
+
+                                    <a href="sales_team.html">Sales Team</a>
+
+                                </div>
+                                <div class="col-12     sidelink">
+
+                                    <a href="join_our_team.html">Join Our Team</a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="col-12">
+                    <div class="sided">
+                        <button class="sidedropbtn  float-start fs-5 fw-bold  ">Properties
+
+                        </button>
+                        <div class="sided-content mt-5">
+
+                            <div class="row">
+                                <div class="col-12 sidelink ">
+
+                                    <a href="#">Featured Property</a>
+
+                                </div>
+                                <div class="col-12     sidelink">
+
+                                    <a href="property_type.html">Property Types</a>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+
+
+
+
+            <!-- <select class="form-select-sm btn text-light rounded-1 login float-end py-1 mx-4 me-md-5   fs-5"
+                style="background-color: rgb(44, 84, 171); " aria-label=" select example">
+                <option  style="color: rgb(11,44,113);" class="bg-light ">
+                    <a href="property_type.html">login</a>
+                </option>
+                <option value="1" style="color: rgb(11,44,113);" class="bg-light"><a href="property_type.html">Signin</a></option>
+        
+            </select> -->
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="row g-4">
+        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s"
+            style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+            <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                <div class="rounded p-4">
+                    <div class="icon mb-3">
+                        <img class="img-fluid" src="img/sewcp.png" alt="Icon">
+                    </div>
+                    <h6>Securities and Exchange Commission of Pakistan</h6>
+                    <span>(SECP)</span>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s"
+            style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+            <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                <div class="rounded p-4">
+                    <div class="icon mb-3">
+                        <img class="img-fluid" src="img/fbr.png" alt="Icon">
+                    </div>
+                    <h6>Federal Board of Revenue </h6>
+                    <span>(Sales &amp; Income Tax)</span>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s"
+            style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+            <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                <div class="rounded p-4">
+                    <div class="icon mb-3">
+                        <img class="img-fluid" src="img/Pakistan-Customs.png" alt="Icon">
+                    </div>
+                    <h6>Pakistan Customs </h6>
+                    <span>(Pakistan Single Window)</span>
+                </div>
+            </a>
+        </div>
+    
+        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s"
+            style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+            <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                <div class="rounded p-4">
+                    <div class="icon mb-3">
+                        <img class="img-fluid" src="img/PakistanEngineeringCouncil.png" alt="Icon">
+                    </div>
+                    <h6>Pakistan Engineering Council</h6>
+                    <span>(PEC)</span>
+                </div>
+            </a>
+        </div>
+    
+        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s"
+            style="visibility: visible; animation-delay: 0.7s; animation-name: fadeInUp;">
+            <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                <div class="rounded p-4">
+                    <div class="icon mb-3">
+                        <img class="img-fluid" src="img/fcci.png" alt="Icon">
+                    </div>
+                    <h6>Faisalabad Chamber of Commerce &amp; Industries</h6>
+                    <span>(FCCI)</span>
+                </div>
+            </a>
+        </div>
+    
+        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s"
+            style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+            <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                <div class="rounded p-4">
+                    <div class="icon mb-3">
+                        <img class="img-fluid" src="img/bankalfalah.png" alt="Icon">
+                    </div>
+                    <h6>Bank Alfalah</h6>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s"
+            style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+            <a class="cat-item d-block bg-light text-center rounded p-3" href="">
+                <div class="rounded p-4">
+                    <div class="icon mb-3">
+                        <img class="img-fluid" src="img/askari-bank.png" alt="Icon">
+                    </div>
+                    <h6>Askari Bank Limited</h6>
+                </div>
+            </a>
+        </div>
+    
+    </div>
+    <!-- Script to display the modal on page load -->
+
+    <!-- -------------------------------------bootstrap js link----------------------------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <script>
+        var myModal = new bootstrap.Modal(document.getElementById('exampleModal'));
+        myModal.show();
+    </script>
+</body>
+
+</html>

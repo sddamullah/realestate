@@ -1,0 +1,212 @@
+/*--------------------------------------------------------------
+# Portfoio
+--------------------------------------------------------------*/
+.portfoio #portfolio-flters {
+  padding: 0;
+  margin: 0 auto 25px auto;
+  list-style: none;
+  text-align: center;
+  border-radius: 50px;
+}
+.portfoio .portfolio-item {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.portfoio .portfolio-item img {
+  position: relative;
+  top: 0;
+  transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius: 7px;
+}
+.portfoio .portfolio-item:hover img {
+  border-radius: 7px;
+}
+.portfoio .portfolio-item .portfolio-info {
+  opacity: 0;
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  bottom: -70px;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  /* background: #0880e8; */
+  background: #fff;
+  /* padding: 15px 20px; */
+  /* border-radius: 7px; */
+  /* padding: 25px 0px; */
+}
+/* .portfoio .portfolio-item .portfolio-info h4 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+} */
+
+/* .portfoio .portfolio-item .portfolio-info p {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 0;
+} */
+
+.portfoio .portfolio-item:hover img {
+  top: -30px;
+}
+.portfoio .portfolio-item:hover img  .absolute{
+  display: none !important;
+} 
+
+.portfoio .portfolio-item:hover .portfolio-info {
+  opacity: 1;
+  bottom: 0;
+  /* border-radius: 20px; */
+}
+.z-10 {
+  z-index: 10;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+
+.absolute {
+  position: absolute;
+}
+
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.text-mattamy-blue {
+  --text-opacity: 1;
+  color: #4469b9;
+  color: rgba(11, 44, 113, var(--text-opacity));
+  
+}
+.text-3xl {
+  font-size: 1.3rem;
+ 
+}
+/* .font-trade-gothic-20 {
+  font-family: TradeGothic-BoldCondTwenty;
+} */
+h1,
+h2,
+h3,
+h4 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+dd,
+figure,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+.text-mattamy-blue {
+  --text-opacity: 1;
+  color: #0b2c71;
+  color: rgba(11, 44, 113, var(--text-opacity));
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+/* .font-graphie {
+  font-family: graphie;
+} */
+
+dd,
+figure,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-60-mattamy {
+  height: 3.75rem;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.bg-action-blue {
+  --bg-opacity: 1;
+  background-color: #0063c6;
+  background-color: rgba(0, 99, 198, var(--bg-opacity));
+}
+
+.w-full {
+  width: 100%;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.text-white {
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+}
+
+.text-center {
+  text-align: center;
+}
+
+.h-full {
+  height: 100%;
+}
+
+  /* .font-trade-gothic-20 {
+    font-family: TradeGothic-BoldCondTwenty;
+  } */
+  .font {
+    font-family: 'Trade Gothic', sans-serif;
+}
+
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}

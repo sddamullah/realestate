@@ -1,0 +1,485 @@
+.fontc{
+    color: rgb(11, 44, 113);
+}
+.bgc{
+    background-color:rgb(11, 44, 113) ;
+    
+}
+@font-face {
+    font-family:graphie;
+    src: url(fonts/graphie/Graphie-Book.otf);
+}
+.tcolor{
+    color: #0B2C71;
+}
+   .font{
+       font-family: 'Antonio', sans-serif;
+font-family: 'Pathway Gothic One', sans-serif;
+}
+.tfont{
+        font-family:graphie;
+}
+.carouselc{
+    margin-top: 200px ;
+
+    
+}
+#carouselExample{
+    border-radius: 30px;
+    position: relative;
+    bottom: 100px;
+    left: 70px;
+}
+.cimg{
+    width: 100%;
+  height: 600px !important;
+  padding: 0 ;
+  margin: 0;
+  
+    
+}
+.carousel-inner{
+    border-radius: 20px;
+    height: 600px ;
+}
+.call{
+    border: 1px solid white ;
+    border-radius: 5px !important; 
+    
+}
+.arrow {
+   color: rgb(11, 44, 113);
+   font-size: 30px !important;
+   background-color: white;
+   border-radius: 40px;
+   padding: 10px;
+    
+}
+.arrow:hover{
+    background-color: rgb(11, 44, 113);
+    color: white;
+}
+@media screen and (max-width: 600px) {
+  /* Your styles for medium screens go here */
+
+  #carouselExample{
+    border-radius: 30px;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    margin: 0;
+}
+.cimg{
+    width: 100%;
+  height: 600px !important;
+  padding: 0 ;
+  margin: 0;
+  
+    
+}
+.carousel-inner{
+    border-radius: 0px;
+    height: 600px ;
+}
+.introo{
+  width: auto;
+}
+.arrow {
+   color: white;
+   font-size: 30px !important;
+   background-color:rgb(11, 44, 113);
+   border-radius: 40px;
+   padding: 10px;
+    
+}
+ .khalid{
+          width: 87%;
+          margin: 0;
+        }
+        .carouselc{
+    margin-top: 100px ;
+
+    
+}
+.fs-sm{
+  font-size: 16px;
+}
+.contactbtn{
+  display: block !important;
+    margin-top: 40px;
+}
+}
+
+/* memmber information */
+  .team .member {
+    position: relative;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    transition: 0.5s;
+    height: 100%;
+  }
+  
+  .team .member .pic {
+    overflow: hidden;
+    width: 180px;
+    border-radius: 50%;
+  }
+  
+  .team .member .pic img {
+    transition: ease-in-out 0.3s;
+  }
+  
+  .team .member:hover {
+    transform: translateY(-10px);
+  }
+  
+  .team .member .member-info {
+    padding-left: 30px;
+  }
+  
+  .team .member h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #37517e;
+  }
+  
+  .team .member span {
+    display: block;
+    font-size: 15px;
+    padding-bottom: 10px;
+    position: relative;
+    font-weight: 500;
+  }
+  
+  .team .member span::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #cbd6e9;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .team .member p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+  }
+  
+  .team .member .social {
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .team .member .social a {
+    transition: ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    background: #eff2f8;
+  }
+  
+  .team .member .social a i {
+    color: #37517e ;
+    font-size: 16px;
+    margin: 0 2px;
+  }
+  
+  .team .member .social a:hover {
+    background: #47b2e4;
+  }
+  
+  .team .member .social a:hover i {
+    color: #fff;
+  }
+  
+  .team .member .social a+a {
+    margin-left: 8px;
+  }
+.fs-sm{
+  font-size: 20px;
+}
+
+
+
+/* ///////////////////////carosal */
+/* ----------------less then 480 px---------------------------- */
+
+/* ----------------less then 480 px---------------------------- */
+
+/* ----------------less then 820 px---------------------------- */
+
+
+
+  /* ----------------less then 420 px---------------------------- */
+
+  /* ----------------less then 480 px---------------------------- */
+
+  /* ----------------less then 480 px---------------------------- */
+ .design .img{
+  height: 200px;
+    position: absolute;
+    left: 20px;
+    top:760px !important;
+    border-radius: 20px;
+    width: 90%;
+
+  }
+  .design{
+  background-color: rgb(11, 44, 113);
+  margin-top: 300px;
+  padding-top: 50px;
+
+}
+
+
+   */
+  /* crasole image style */
+     
+   
+        
+
+        /* .background {
+            position: absolute;
+            top: -40px;
+            left: -40px;
+            height: 120%;
+            width: 120%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            -webkit-filter: blur(30px);
+            filter: blur(30px);
+        } */
+
+        .card {
+            /* position: absolute; */
+            /* border-radius: 8px; */
+            height: 605px;
+            width: 100%;
+            /* top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0; */
+            /* margin: auto; */
+           
+          background-color: none;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            /* box-shadow: 0 0 80px -10px black; */
+            overflow: hidden;
+        }
+
+        .card-blur {
+            position: absolute;
+            height: 100%;
+            width: calc(100% + 1px);
+            background-color: black;
+            opacity: 0;
+            transition: opacity 0.15s ease-in;
+        }
+
+        .card:hover .card-blur {
+            opacity: 0.4;
+        }
+        
+
+        .foot {
+            z-index: 1;
+            position: absolute;
+            height: 80px;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* svg#curve {
+            position: absolute;
+            fill: white;
+            left: 0;
+            bottom: 0;
+            width: 400px;
+            height: 450px;
+        } */
+
+        .connections {
+            height: 80px;
+            width: 400px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 10px;
+            margin-left: 30px
+        }
+                          
+        .connection {
+            height: 50px;
+            width: 50px;
+            border-radius: 100%;
+            /* background-color: white; */
+            display: inline-block;
+         
+            transform: translateY(200px);
+
+            transition: transform 1s cubic-bezier(.46, 1.48, .18, .81);
+        }
+
+        .card:hover .connection {
+            transform: translateY(0px);
+        }
+
+        /* .info {
+            font-family: Inconsolata;
+            padding-left: 20px;
+            transform: translateY(50px);
+
+            transition: transform 1s cubic-bezier(.31, 1.21, .64, 1.02);
+        } */
+
+     
+
+      
+
+        .connection.facebook {
+            height: 50px;
+            width: 50px;
+            margin-left: 30px;
+            padding: 0px;
+            border-radius: 100%;
+            overflow: hidden;
+        }
+
+     
+
+        .connection.facebook .icon {
+            height: 100%;
+            width: 100%;
+            background-position: center;
+            background-size: cover;
+            background-color: rgb(11, 44, 113);
+        }
+
+      
+
+        
+            .card {
+    
+    /* background: url("assets/images/waleed.jpg"); */
+    }
+   .cal{
+    padding: 12px 0px 0px 12px !important ;
+   }
+   .appoint{
+    padding: 12px 0px 0px 12px;
+   }
+   
+/* -----------------navba css---------------------- */
+.navba {
+  overflow: hidden;
+  background-color: white;
+  font-family: "Antonio", sans-serif;
+  font-family: "Pathway Gothic One", sans-serif;
+}
+
+.navba a {
+  float: right;
+  /* font-size: 20px;
+  font-weight: 600; */
+  color:#0b2c71;
+  letter-spacing: 1px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.d {
+  float: right;
+  overflow: hidden;
+}
+
+.d .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color:#0b2c71;
+  padding: 14px 16px;
+  background-color: inherit;
+  /* font-size: 20px;
+  font-weight: 600; */
+  margin: 0;
+   letter-spacing: 1px;
+}
+
+.navba a:hover,
+.d:hover .dropbtn {
+  /* background-color: red; */
+  border-bottom: 3px solid rgb(11, 44, 113);
+}
+
+.d-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(11, 44, 113);
+  width: 100%;
+  left: 0;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+}
+
+/* .d-content .header {
+  background: red;
+  padding: 16px;
+  color: white;
+} */
+
+.d:hover .d-content {
+  display: block;
+}
+
+/* Create three equal cos that floats next to each other */
+
+.link a {
+  float: none;
+  text-shadow: none;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  text-decoration: none;
+  font-size: 18px;
+
+  display: block;
+  text-align: center;
+}
+
+/* Clear floats after the cos */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three cos stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .link {
+    width: 100%;
+    height: auto;
+  }
+}
+.logo {
+  width: 5%;
+  border: 2px dashed rgb(11, 44, 113);
+  border-radius: 100%;
+}
+.login{
+    margin-top: 33px;
+    border-radius: 5px;
+
+}
